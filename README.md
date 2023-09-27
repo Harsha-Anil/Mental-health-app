@@ -2,6 +2,7 @@
 An application which was developed my final year students for the final year major project. 
 
 --------:FEATURES:-------
+
 A. Basic App Features
 This application consists of basic features 
 like user sign-up, login, forgot password, profile 
