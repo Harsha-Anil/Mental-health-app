@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".Help_res">
+
+        <LinearLayout
+            android:id="@+id/ResourcesPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/result_text_color"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="75sp"
+                android:gravity="center"
+                android:text="Resources"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NSPL"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="@color/bg_screen2"
+                android:gravity="center"
+                android:text="STATE HELPLINE NUMBER:"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/NSPL1"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="Call 1902"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:paddingBottom="20sp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/NSPL2"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Connects you with a crisis center in the Lifeline network closest to your location"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/NSPL3"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="Your call is confidential and free"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+            <TextView
+                android:id="@+id/CTL"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="@color/bg_screen2"
+                android:gravity="center"
+                android:text="findahelpline"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/CTL1"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="Visit website"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/CTL2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20sp"
+                android:text="https://findahelpline.com/"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/NDVH"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="@color/bg_screen2"
+                android:gravity="center"
+                android:text="TELEMEDICINE CENTER
+NEUROSCIENCE FACULTY BLOCK
+NIMHANS"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/NDVH1"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="Visit website"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/NDVH2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20sp"
+                android:text="https://nimhans.co.in"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/NSAH"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="#0ec6c0"
+                android:gravity="center"
+                android:text="Aasra"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/NSAH2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="Call 91-9820466726"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/NSAH1"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20sp"
+                android:text="Mail :- aasrahelpline@yahoo.com"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/TTP"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:background="#0ec6c0"
+                android:gravity="center"
+                android:text="The Trevor Project"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/TTP2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20sp"
+                android:text="Call 1(866)-488-7386"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:paddingBottom="20sp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/TTP3"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="Confidential and secure service that provides live help to LGBTQ youth"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/VCL"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="50sp"-->
+<!--                android:background="#0ec6c0"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Veterans crisis Line"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="20sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/VCL2"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20sp"-->
+<!--                android:text="Call 1(800)-273-8255; TTY: 1-800-799-4889"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/VCL3"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="Connects veterans in crisis (and their families and friends) with qualified, caring Department of Veterans Affairs responders through a confidential, toll-free hotline, online chat, or text"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="50sp"-->
+<!--                android:background="#0ec6c0"-->
+<!--                android:gravity="center"-->
+<!--                android:text="SAMHSA Treatment Referral Helpline"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="20sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH2"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20sp"-->
+<!--                android:text="Call 1(877)-SAMSHA7 (877-726-4727)"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH3"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="1-800-662-HELP (4357) - National helpline, TTY: 800-487-4889"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH4"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Confidential, free, 24-hour-a-day, 365-day-a-year"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH5"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Provides referrals to local treatment facilities, support groups, and community-based organizations"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/STRH6"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="Get general information on mental health and locate treatment services in your area. Speak to a live person, Monday through Friday from 8 a.m. to 8 p.m. EST."-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/NRS"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="50sp"-->
+<!--                android:background="#0ec6c0"-->
+<!--                android:gravity="center"-->
+<!--                android:text="National Runaway Safeline"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="20sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/NRS2"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20sp"-->
+<!--                android:text="Call 1(800)-786-2929"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="italic" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/NRS3"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="The National Runaway Safeline (NRS) is here to listen whether you are thinking of running away or already have. Our services are confidential and nonjudgmental"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/C211"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="50sp"-->
+<!--                android:background="#0ec6c0"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Call 211 "-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="20sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/C2112"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20sp"-->
+<!--                android:text="Speak with a professional in your area to find help regarding the following topics: Crisis, Emergencies and disasters, food, health, housing and utilities, human trafficking, jobs, reentry, and veterans"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/C2113"-->
+<!--                android:layout_width="300sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingBottom="20sp"-->
+<!--                android:text="24/7/365; 180 languages; completely confidential"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+            <LinearLayout
+                android:id="@+id/Navigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/result_text_color"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+
+                <Button
+                    android:id="@+id/resH"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_background"
+                    android:text="@string/profile"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintWidth_percent=".33" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

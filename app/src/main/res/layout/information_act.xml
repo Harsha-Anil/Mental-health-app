@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/header_bkg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:background="@drawable/one"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/av"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mental Health App"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us at: majorprojectapp@gmail.com"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/profile"
+            android:text="Profile"
+            android:background="@drawable/bottom_background"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_person_outline_24"/>
+
+    </LinearLayout>
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/settings"-->
+    <!--        android:layout_marginStart="12dp"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:orientation="horizontal">-->
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="#D7C6F6"-->
+    <!--            android:text="Settings"-->
+    <!--            android:background="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:drawableLeft="@drawable/ic_baseline_settings_24"/>-->
+
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="About Us"
+            android:background="@drawable/bottom_background"
+            android:id="@+id/about"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_info_24"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Help"
+            android:background="@drawable/bottom_background"
+            android:id="@+id/help"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/baseline_question_mark_24"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="#D7C6F6"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Logout"
+            android:id="@+id/logout"
+            android:textSize="20sp"
+            android:background="@drawable/bottom_background"
+            android:drawableLeft="@drawable/baseline_logout_24"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Home"
+            android:background="@drawable/bottom_background"
+            android:textSize="20sp"
+            android:id="@+id/back"
+            android:drawableLeft="@drawable/baseline_keyboard_backspace_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

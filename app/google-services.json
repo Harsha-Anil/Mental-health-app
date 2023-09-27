@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "509752843702",
+    "project_id": "mpavchat-75d97",
+    "storage_bucket": "mpavchat-75d97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509752843702:android:ed9bdaac6fbda445213517",
+        "android_client_info": {
+          "package_name": "com.av.avmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509752843702-lkii412ii5a67741tjd0sgi97sil3dts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIF9lqd1-ntA0FZNlEvadKf0F0jxzYShw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509752843702-lkii412ii5a67741tjd0sgi97sil3dts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
