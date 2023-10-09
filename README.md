@@ -1,5 +1,5 @@
 # Mental-health-app
-An application which was developed my final year students for the final year major project. 
+An application which was developed by final year students for the final year major project. 
 
 --------:FEATURES:-------
 
